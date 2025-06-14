@@ -71,6 +71,7 @@ Sebuah halaman login interaktif bergaya MacOS, dibuat hanya dengan HTML, CSS, da
 | Light Mode | Dark Mode |
 |------------|-----------|
 | ![light](assets/screenshots/light-mode.png) | ![dark](assets/screenshots/dark-mode.png) |
+| ![light](assets/screenshots/light-mode-sing-up.png) | ![dark](assets/screenshots/dark-mode-sing-up.png) |
 
 > Jika belum punya screenshot, Anda bisa tambahkan manual di folder `assets/screenshots/`.
 
