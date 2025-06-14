@@ -36,9 +36,9 @@ $(document).ready(function () {
     // ========================
     $("#loginForm").submit(function (e) {
         e.preventDefault();
-
         const username = $("#username").val().trim();
         const password = $("#password").val();
+
         const rememberMe = $("#rememberMe").is(":checked");
 
         // Check credentials against demo user
@@ -51,6 +51,7 @@ $(document).ready(function () {
             $("#successModal").fadeIn();
 
             $("#password").val("");
+            $("#loginMessage").hide();
             // Optional: You can redirect the user here
         } else {
             $("#loginMessage").text("Invalid username or password.").css("color", "red");
