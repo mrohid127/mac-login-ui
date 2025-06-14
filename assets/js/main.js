@@ -99,6 +99,7 @@ $(document).ready(function () {
         showProgress(() => {
             $("#registerForm").hide();
             $("#loginForm").fadeIn();
+            $("#loginMessage").hide();
         });
     });
 
@@ -119,6 +120,7 @@ $(document).ready(function () {
         showProgress(() => {
             $("#registerForm").hide();
             $("#loginForm").fadeIn();
+            $("#loginMessage").hide();
         });
     });
 
