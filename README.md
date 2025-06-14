@@ -53,7 +53,6 @@ Sebuah halaman login interaktif bergaya MacOS, dibuat hanya dengan HTML, CSS, da
 
 -   Aplikasi **sepenuhnya frontend**, tidak ada koneksi ke backend.
 -   Data login hanya divalidasi dengan data demo (`demoUser`) di JavaScript.
--   "Remember Me" menyimpan **username dan password** di `localStorage` untuk tujuan demo saja. ⚠️ **Jangan digunakan untuk aplikasi produksi!**
 -   Tema terang/gelap disimpan di `localStorage` dan akan bertahan meskipun browser ditutup.
 
 ---
