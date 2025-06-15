@@ -1,7 +1,7 @@
 # 💻 MacOS-Style Login Page (HTML + jQuery)
 
 An interactive MacOS-inspired login page built using only HTML, CSS, and jQuery — with no backend. This project simulates basic login and registration functionality with a sleek, modern UI and dark mode support.
-
+[![Live Preview](https://img.shields.io/badge/🔗%20Live%20Preview-mrohid127.github.io/mac--login--ui-blue?style=for-the-badge)](https://mrohid127.github.io/mac-login-ui/)
 ---
 
 ## 🧩 Key Features
