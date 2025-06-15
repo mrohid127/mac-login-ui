@@ -1,95 +1,104 @@
-# 🎥 Modern Streaming Web Page (HTML + Bootstrap + jQuery)
+# 💻 MacOS-Style Login Page (HTML + jQuery)
 
-A modern and responsive movie streaming web interface built with **HTML**, **Bootstrap 5**, **jQuery**, and **Slick Carousel** — with a stylish design inspired by platforms like Netflix or Disney+. This page includes a hero section, trailer embed, genre navigation, and a dynamic carousel layout.
+An interactive MacOS-inspired login page built using only HTML, CSS, and jQuery — with no backend. This project simulates basic login and registration functionality with a sleek, modern UI and dark mode support.
 
 ---
 
-## ✨ Features
+## 🧩 Key Features
 
-- ✅ **Responsive Navbar** with genre dropdown
-- 🎬 **Hero Section** featuring a featured movie (Gundala)
-- 📺 **Trailer Popup** embedded directly from YouTube
-- 🎠 **Popular Now Carousel** powered by Slick Carousel
-- 🔍 **Search Bar** with dynamic dropdown suggestion placeholder
-- 🌙 **Dark-themed Design** with modern visuals
-- 📱 **Fully Mobile Responsive**
+- ✅ **Login and Register Forms** with basic validation  
+- 🌗 **Light/Dark Theme Toggle** with `localStorage` preference saving  
+- 🔒 **Remember Me** simulates local storage of username and password  
+- 🧊 **MacOS Glassmorphism Style** with `backdrop-filter` effects  
+- 🪟 Success modal notifications for login/register  
+- 📱 Fully responsive mobile design  
+
+---
+
+## 👤 Demo Account
+
+| Type | Username / Email               | Password |
+|------|--------------------------------|----------|
+| Demo | `admin` or `admin@example.com` | `123456` |
 
 ---
 
 ## 📂 Project Structure
 
-project-root/
-├── index.html
 ├── assets/
 │ ├── css/
 │ │ └── style.css
-│ ├── js/
-│ │ └── main.js
 │ ├── img/
-│ │ ├── gundala.jpg
-│ │ └── logo.png
-│ └── icons/
-│ └── logo.png
----
+│ │ ├── dark.jpg
+│ │ └── light.jpg
+│ └── js/
+│ └── main.js
+├── partials/
+│ └── navbar.html
+├── index.html
+├── .gitignore
+└── README.md
 
-## 🛠 Technologies Used
-
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5.3**
-- **jQuery 3.7**
-- **Slick Carousel**
-- **Font Awesome 6**
 
 ---
 
-## 🚀 How to Use
+## ⚙️ Getting Started
 
-1. Clone or download this repository
-2. Open `index.html` in any modern browser
-3. Explore the interactive UI:
-   - Click "Watch Trailer" to load the embedded video
-   - Use the navbar and genre dropdown for navigation
-   - View carousel content in "Popular Now"
+1. **Download or clone** this repository  
+2. Open `index.html` in any modern browser (Chrome, Firefox, Opera, etc.)  
+3. Log in with the demo account or register a dummy account (no server storage)
 
 ---
 
-## 📌 Notes
+## 📌 Technical Notes
 
-- No backend functionality — this is a **frontend-only** simulation
-- The trailer uses an iframe and loads dynamically when clicking the trailer button
-- The search bar has a dropdown placeholder (`#search-suggestions`) for future implementation
-- Designed with responsive grid and dark UI theme for immersive experience
-
----
-
-## 📸 Screenshots (Optional)
-
-| Hero Section | Trailer Player | Carousel |
-|--------------|----------------|----------|
-| ![Hero](assets/screenshots/hero.png) | ![Trailer](assets/screenshots/trailer.png) | ![Carousel](assets/screenshots/carousel.png) |
-
-> You can add your own screenshots to the `assets/screenshots/` folder to complete this section.
+- This is a **fully frontend** application — no backend involved.  
+- Login data is validated locally via a hardcoded `demoUser` in JavaScript.  
+- Theme preferences are saved in `localStorage` and persist even after closing the browser.  
 
 ---
 
-## 👨‍💻 Author
+## 🛠️ Technologies Used
 
-Made with ❤️ by **Muhammad Rohid**  
-📸 Instagram: [@rohid.127](https://instagram.com/rohid.127)
+- HTML5 + CSS3  
+- jQuery (latest version)  
+- Bootstrap 5 (optional)  
+- `localStorage` for lightweight client-side storage  
+
+---
+
+## 📸 Preview
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![light](assets/screenshots/light-mode.png) | ![dark](assets/screenshots/dark-mode.png) |
+| ![light](assets/screenshots/light-mode-sing-up.png) | ![dark](assets/screenshots/dark-mode-sing-up.png) |
+
+> If screenshots are missing, you can manually add them to the `assets/screenshots/` folder.
+
+---
+
+## 🧑‍💻 Developer
+
+Created by **Muhammad Rohid**
+
+📷 Instagram: [@rohid.127](https://instagram.com/rohid.127)
 
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-Feel free to use, modify, and share — just credit the author.
+You are free to use, modify, and distribute it — please include proper attribution.
 
 ---
 
-## 🧠 Future Enhancements (Optional Ideas)
+## ✅ Future Plans (Optional)
 
-- [ ] Implement real-time search suggestions via JavaScript or API
-- [ ] Load carousel content dynamically using JSON
-- [ ] Add multiple categories (e.g., Trending, Top Rated)
-- [ ] Implement theme switching (light/dark toggle)
+- [ ] Save accounts to a JSON structure and validate dynamically (for learning purposes)  
+- [ ] Export as a PWA (Progressive Web App)  
+- [ ] Add CSS keyframe animations for login/logout transitions  
+
+---
+
+> Need help uploading to GitHub? I can assist with `git init`, `.gitignore`, and push steps.
