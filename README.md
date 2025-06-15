@@ -1,102 +1,62 @@
-# 💻 MacOS-Style Login Page (HTML + jQuery)
-
-Sebuah halaman login interaktif bergaya MacOS, dibuat hanya dengan HTML, CSS, dan jQuery — tanpa backend. Proyek ini mensimulasikan autentikasi login sederhana dan fitur pendaftaran, dengan tampilan modern dan dukungan tema gelap.
 
 ---
 
-## 🧩 Fitur Utama
+## ⚙️ How to Run
 
--   ✅ **Login dan Register Form** dengan validasi dasar
--   🌗 **Light/Dark Theme Toggle** dengan penyimpanan preferensi di `localStorage`
--   🔒 **Remember Me** menyimpan username dan password (simulasi lokal)
--   🧊 **MacOS Glassmorphism Style** dengan efek `backdrop-filter`
--   🪟 Modal notifikasi login/register sukses
--   📱 Desain responsif untuk mobile
+1. **Download or clone** this repository
+2. Open the `index.html` file in any modern browser (Chrome, Firefox, Opera, etc.)
+3. Log in using the demo account or register a dummy account (not saved to server)
 
 ---
 
-## 👤 Akun Demo
+## 📌 Technical Notes
 
-| Tipe | Username / Email                 | Password |
-| ---- | -------------------------------- | -------- |
-| Demo | `admin` atau `admin@example.com` | `123456` |
-
----
-
-## 📂 Struktur Proyek
-
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── img/
-│ │ ├── dark.jpg
-│ │ └── light.jpg
-│ └── js/
-│ └── main.js
-├── partials/
-│ └── navbar.html
-├── index.html
-├── .gitignore
-└── README.md
+- This is a **pure frontend** application — no backend integration.
+- Login data is validated only against a hardcoded demo user (`demoUser`) in JavaScript.
+- Light/Dark theme is saved in `localStorage` and persists across browser sessions.
 
 ---
 
-## ⚙️ Cara Menjalankan
+## 🛠️ Technologies Used
 
-1. **Download/clone** repositori ini
-2. Buka file `index.html` menggunakan browser modern (Chrome, Firefox, Opera, dll)
-3. Login menggunakan akun demo atau daftar akun dummy (tidak disimpan ke server)
-
----
-
-## 📌 Catatan Teknis
-
--   Aplikasi **sepenuhnya frontend**, tidak ada koneksi ke backend.
--   Data login hanya divalidasi dengan data demo (`demoUser`) di JavaScript.
--   Tema terang/gelap disimpan di `localStorage` dan akan bertahan meskipun browser ditutup.
+- HTML5 + CSS3
+- jQuery (latest)
+- Bootstrap 5 (optional)
+- `localStorage` for lightweight data storage
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-
--   HTML5 + CSS3
--   jQuery (latest)
--   Bootstrap 5 (jika diaktifkan)
--   `localStorage` untuk penyimpanan ringan
-
----
-
-## 📸 Preview Tampilan
+## 📸 UI Preview
 
 | Light Mode | Dark Mode |
 |------------|-----------|
 | ![light](assets/screenshots/light-mode.png) | ![dark](assets/screenshots/dark-mode.png) |
 | ![light](assets/screenshots/light-mode-sing-up.png) | ![dark](assets/screenshots/dark-mode-sing-up.png) |
 
-> Jika belum punya screenshot, Anda bisa tambahkan manual di folder `assets/screenshots/`.
+> Don’t have screenshots yet? You can manually add them to the `assets/screenshots/` folder.
 
 ---
 
 ## 🧑‍💻 Developer
 
-Dibuat oleh **Muhammad Rohid**
-
-📷 Instagram: [@rohid.127](https://instagram.com/rohid.127)
-
----
-
-## 📄 Lisensi
-
-Proyek ini menggunakan lisensi [MIT](https://opensource.org/licenses/MIT). Bebas digunakan, dimodifikasi, dan disebarluaskan — mohon tetap cantumkan atribusi.
+Created by **Muhammad Rohid**  
+📸 Instagram: [@rohid.127](https://instagram.com/rohid.127)
 
 ---
 
-## ✅ Rencana Pengembangan (Opsional)
+## 📄 License
 
--   [ ] Simpan akun ke JSON dan validasi secara dinamis (untuk pembelajaran lanjut)
--   [ ] Export ke PWA (Progressive Web App)
--   [ ] Tambah animasi login/logout dengan CSS keyframe
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+Feel free to use, modify, and distribute — just keep the attribution.
 
 ---
 
-> Butuh bantuan upload ke GitHub? Saya siap bantu buatkan `git init`, `.gitignore`, dan langkah push-nya.
+## ✅ Future Plans (Optional)
+
+- [ ] Store user data in JSON and validate dynamically (for advanced learning)
+- [ ] Export as PWA (Progressive Web App)
+- [ ] Add animated login/logout transitions using CSS keyframes
+
+---
+
+> Need help uploading to GitHub? I can help you set up `git init`, `.gitignore`, and first-time push commands.
